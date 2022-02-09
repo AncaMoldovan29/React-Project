@@ -1,0 +1,29 @@
+.product-card {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+.products-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  align-items: center;
+  margin: auto;
+  gap: 30px 30px;
+  background-color: lightgray;
+}
+.meniu {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  margin: 0px 350px 10px;
+}
+.main {
+  background-color: rgb(245, 216, 226);
+}
+
+.price-label {
+    color: red;
+    font-weight: 600;
+}
